@@ -141,3 +141,8 @@ x-y velocity plot for radar only.  The output is still noisy, but a lot more acc
 
 
 EKF performs the best when both sensors are combined.  Laser sensor provides higher resolution position data while radar sensor provides direct velocity data
+
+
+## FUTURE WORK
+
+To improve kalman filter performance, unscented kalman filter is typically used since acceleration can be included in the state vector to estimate velocity and position.
